@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "data": {
+    "id": "abcDEF",
+    "type": "folder",
+    "name": "Solo",
+    "parentFolder": null,
+    "code": "abcDEF",
+    "createTime": 1735603200,
+    "modTime": 1735603200,
+    "contents": {
+      "11111111-aaaa-bbbb-cccc-222222222222": {
+        "id": "11111111-aaaa-bbbb-cccc-222222222222",
+        "type": "file",
+        "name": "report.pdf",
+        "size": 4096,
+        "link": "https://store-eu1.gofile.io/download/11111111-aaaa-bbbb-cccc-222222222222/report.pdf",
+        "mimetype": "application/pdf",
+        "md5": "00000000000000000000000000000000"
+      }
+    }
+  }
+}

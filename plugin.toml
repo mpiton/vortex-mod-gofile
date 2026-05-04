@@ -1,0 +1,14 @@
+[plugin]
+name = "vortex-mod-gofile"
+version = "1.0.0"
+category = "hoster"
+author = "vortex-community"
+description = "Gofile free hoster — folder/file resolution via the public JSON API with a guest token"
+license = "GPL-3.0"
+min_vortex_version = "0.1.0"
+
+[capabilities]
+# Gofile resolution requires two host HTTP calls: GET /createAccount (guest
+# token) followed by GET /getContent?contentId=<id>&token=<token>. Both go
+# through the host's `http_request` host function — no subprocess needed.
+http = true

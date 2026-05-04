@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "data": {
+    "id": "FOLDER1",
+    "type": "folder",
+    "name": "Holiday Photos",
+    "parentFolder": null,
+    "code": "FOLDER1",
+    "createTime": 1735603200,
+    "modTime": 1735603200,
+    "contents": {
+      "aaaa1111": {
+        "id": "aaaa1111",
+        "type": "file",
+        "name": "beach.jpg",
+        "size": 2048000,
+        "link": "https://store-eu1.gofile.io/download/aaaa1111/beach.jpg",
+        "mimetype": "image/jpeg"
+      },
+      "bbbb2222": {
+        "id": "bbbb2222",
+        "type": "file",
+        "name": "mountain.jpg",
+        "size": 3145728,
+        "link": "https://store-eu1.gofile.io/download/bbbb2222/mountain.jpg",
+        "mimetype": "image/jpeg"
+      },
+      "cccc3333": {
+        "id": "cccc3333",
+        "type": "file",
+        "name": "video.mp4",
+        "size": 52428800,
+        "link": "https://store-eu1.gofile.io/download/cccc3333/video.mp4",
+        "mimetype": "video/mp4"
+      }
+    }
+  }
+}

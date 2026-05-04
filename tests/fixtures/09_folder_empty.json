@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "data": {
+    "id": "emptyFLD",
+    "type": "folder",
+    "name": "Empty",
+    "contents": {}
+  }
+}

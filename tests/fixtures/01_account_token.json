@@ -1,0 +1,9 @@
+{
+  "status": "ok",
+  "data": {
+    "id": "guest-1",
+    "token": "abcDEF123456",
+    "tier": "guest",
+    "rootFolder": "root1"
+  }
+}

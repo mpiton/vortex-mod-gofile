@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "data": {
+    "id": "MIXED1",
+    "type": "folder",
+    "name": "Mixed",
+    "contents": {
+      "file111": {
+        "id": "file111",
+        "type": "file",
+        "name": "top.zip",
+        "size": 1024,
+        "link": "https://store-eu1.gofile.io/download/file111/top.zip",
+        "mimetype": "application/zip"
+      },
+      "subFolderXY": {
+        "id": "subFolderXY",
+        "type": "folder",
+        "name": "Sub",
+        "createTime": 1735603200
+      }
+    }
+  }
+}
