@@ -69,11 +69,10 @@ Vortex picks up the new plugin via the file watcher; no restart needed.
 ## Tests
 
 ```bash
-cargo test                                  # native unit + fixture tests
-cargo build --target wasm32-wasip1 --release  # build for WASM smoke
-cargo test --test wasm_smoke                # WASM smoke (auto-skip if wasm missing)
 cargo clippy --all-targets -- -D warnings
 cargo fmt --check
+cargo build --target wasm32-wasip1 --release  # required by the smoke tests
+cargo test                                  # native, fixture, and mandatory WASM smoke tests
 ```
 
 The JSON API fixtures live in `tests/fixtures/*.json` — nine variants
